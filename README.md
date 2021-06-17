@@ -1,5 +1,12 @@
 # My portfolio built with React.js
 
+<h2 align="center">
+  <img src="https://github.com/hagenderouen/my-react-portfolio/blob/main/examples/screenshot.gif" alt="Screenshot" width="600px" />
+  <br>
+</h2>
+
+[View live](https://myreactportfoliomain.gatsbyjs.io/)
+
 ## Technologies used 🛠️
 
 - [Gatsby](https://www.gatsbyjs.org/) - Static Site Generator
