@@ -2,17 +2,17 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: '', // e.g: 'Name | Developer'
-  lang: '', // e.g: en, es, fr, jp
-  description: '', // e.g: Welcome to my website
+  title: '<Hagen/> | Full-stack Web Developer | Scrum Master', // e.g: 'Name | Developer'
+  lang: 'en', // e.g: en, es, fr, jp
+  description: 'Welcome to my portfolio site', // e.g: Welcome to my website
 };
 
 // HERO DATA
 export const heroData = {
   title: '',
-  name: '',
-  subtitle: '',
-  cta: '',
+  name: 'Hagen DeRouen',
+  subtitle: 'I design and build things',
+  cta: 'Let me show you',
 };
 
 // ABOUT DATA
@@ -28,37 +28,46 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
+    img: 'password-screenshot.png',
+    title: 'Password Generator',
+    info: 'Generate a random password from a select criteria.',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'https://hagenderouen.github.io/js-password-generator/',
+    repo: 'https://github.com/hagenderouen/js-password-generator',
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
+    img: 'codequiz-screenshot.png',
+    title: 'Code Quiz',
+    info: 'Test your coding knowledge.',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'https://hagenderouen.github.io/code-quiz/',
+    repo: 'https://github.com/hagenderouen/code-quiz',
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
+    img: 'scheduler-screenshot.png',
+    title: 'Workday Scheduler',
+    info: 'Save your important work events in a simple calendar.',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'https://hagenderouen.github.io/workday-scheduler/',
+    repo: 'https://github.com/hagenderouen/workday-scheduler',
+  },
+  {
+    id: nanoid(),
+    img: 'techblog-screenshot.png',
+    title: 'TechBlog',
+    info: 'An open source blogging site.',
+    info2: '',
+    url: 'https://hagen-tech-blog.herokuapp.com/',
+    repo: 'https://github.com/hagenderouen/tech-blog',
   },
 ];
 
 // CONTACT DATA
 export const contactData = {
   cta: '',
-  btn: '',
+  btn: 'Download my resume',
   email: '',
 };
 
@@ -68,27 +77,22 @@ export const footerData = {
     {
       id: nanoid(),
       name: 'twitter',
-      url: '',
-    },
-    {
-      id: nanoid(),
-      name: 'codepen',
-      url: '',
+      url: 'https://twitter.com/hagen_derouen',
     },
     {
       id: nanoid(),
       name: 'linkedin',
-      url: '',
+      url: 'https://www.linkedin.com/in/hagen-derouen/',
     },
     {
       id: nanoid(),
       name: 'github',
-      url: '',
+      url: 'https://github.com/hagenderouen',
     },
   ],
 };
 
 // Github start/fork buttons
 export const githubButtons = {
-  isEnabled: true, // set to false to disable the GitHub stars/fork buttons
+  isEnabled: false, // set to false to disable the GitHub stars/fork buttons
 };
