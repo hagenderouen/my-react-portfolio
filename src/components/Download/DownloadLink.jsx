@@ -5,7 +5,7 @@ import PropTypes from 'prop-types';
 const DownloadLink = ({ children }) => {
   const data = useStaticQuery(graphql`
     {
-      allFile(filter: { name: { eq: "Hagen-Derouen-Resume" } }) {
+      allFile(filter: { name: { eq: "Hagen-Derouen-Web-Developer-Resume" } }) {
         nodes {
           publicURL
         }
