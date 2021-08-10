@@ -17,11 +17,13 @@ export const heroData = {
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'profile.jpg',
-  paragraphOne: '',
-  paragraphTwo: '',
-  paragraphThree: '',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  img: 'hagen-headshot.jpg',
+  paragraphOne:
+    'Full-stack Web Developer and certified Scrum Master. Focused on MERN stack (MongoDB, Express.js, React.js, and Node.js).',
+  paragraphTwo:
+    'With each project my aim is to develop a roadmap for success to improve the user-experience. I seek projects that are fast-passed with a quality driven team to improve business solutions on the web.',
+  paragraphThree: 'Ocassionaly, I enjoy golf 🏌️‍♂️ and beer 🍺.',
+  resume: '', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
